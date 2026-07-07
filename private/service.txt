@@ -1,0 +1,635 @@
+<!-- wp:html -->
+<!-- 厨房君カード -->
+
+<div class="chubo-card-container">
+<div class="chubo-card std">
+  <img src="http://chubo-kun.com/wp-content/uploads/2025/05/std1.png" alt="厨房君STDロゴ" class="chubo-logo">
+
+<div class="type-label-inline">
+  <span class="type-box">スタンダード</span>
+  <span class="scale-box">小規模向け</span>
+</div>
+
+  <div class="chubo-tags">
+    <span class="tag tag-basic">基本業務管理</span>
+    <span class="tag tag-stock">在庫管理</span>
+  </div>
+
+  <p class="chubo-description left-align">
+    必要最低限の業務をしっかり管理できるシンプルなモデル。初めての導入におすすめです。
+  </p>
+</div>
+
+
+<div class="chubo-card pro">
+  <img src="http://chubo-kun.com/wp-content/uploads/2025/05/pro1.png" alt="厨房君proロゴ" class="chubo-logo">
+
+
+<div class="type-label-inline">
+  <span class="type-box">プロ</span>
+  <span class="scale-box">中規模向け</span>
+</div>
+
+
+  <div class="chubo-tags">
+    <span class="tag tag-basic">基本業務管理</span>
+    <span class="tag tag-stock">在庫管理</span>
+    <span class="tag tag-sales">売上管理</span>
+  </div>
+
+  <p class="chubo-description left-align">
+業務効率化と売上管理の両立を実現。中規模店舗に最適な、実務重視のモデルです。
+  </p>
+</div>
+
+
+
+<div class="chubo-card dlx">
+  <img src="http://chubo-kun.com/wp-content/uploads/2025/05/dlx1.png" alt="厨房君dlxロゴ" class="chubo-logo">
+
+<div class="type-label-inline">
+  <span class="type-box">デラックス</span>
+  <span class="scale-box">中規模向け</span>
+</div>
+
+  <div class="chubo-tags">
+    <span class="tag tag-basic">基本業務管理</span>
+    <span class="tag tag-stock">在庫管理</span>
+    <span class="tag tag-sales">売上管理</span>
+    <span class="tag tag-cloudsign">クラウドサイン</span>
+  </div>
+
+  <p class="chubo-description left-align">
+    ESLによる在庫連携で、在庫の「見える化」を実現。再生-在庫-出荷までの一連の管理の効率が大幅にアップします。
+  </p>
+</div>
+
+
+
+<div class="chubo-card hyper">
+  <img src="http://chubo-kun.com/wp-content/uploads/2025/05/hyper1.png" alt="厨房君hyperロゴ" class="chubo-logo">
+
+<div class="type-label-inline">
+  <span class="type-box">ハイパー</span>
+  <span class="scale-box">大規模向け</span>
+</div>
+
+  <div class="chubo-tags">
+    <span class="tag tag-basic">基本業務管理</span>
+    <span class="tag tag-stock">在庫管理</span>
+    <span class="tag tag-sales">売上管理</span>
+    <span class="tag tag-cloudsign">クラウドサイン</span>
+    <span class="tag tag-esl">ESL管理</span>
+  </div>
+
+  <p class="chubo-description left-align">
+    大規模店舗、多店舗展開など在庫数が多く、かつ売上の管理もしたい場合にオススメのフル装備した最上位タイプです。
+  </p>
+</div>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:spacer {"height":"var:preset|spacing|af-spacing-m"} -->
+<div style="height:var(--wp--preset--spacing--af-spacing-m)" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:html -->
+<!-- 厨房君4種類機能表（縦横入れ替え版・data-mark属性対応） -->
+<table class="chubo-table">
+  <thead>
+    <tr>
+      <th class="feature-label">主要機能</th>
+      <th><span class="std">厨房君 STD</span></th>
+      <th><span class="pro">厨房君 PRO</span></th>
+      <th><span class="dlx">厨房君 DLX</span></th>
+      <th><span class="hyper">厨房君 HYPER</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="basic">基本業務管理<br>[顧客/仕入/再生/販売管理]</td>
+      <td data-mark="dot">●</td>   <!-- STD -->
+      <td data-mark="dot">●</td>   <!-- PRO -->
+      <td data-mark="dot">●</td>   <!-- DLX -->
+      <td data-mark="dot">●</td>   <!-- HYPER -->
+    </tr>
+    <tr>
+      <td class="stock">在庫管理<br>[基本システム]</td>
+      <td data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+
+    <tr>
+      <td class="sales">売上管理</td>
+      <td data-mark="cross">×</td> <!-- STD -->
+      <td data-mark="dot">●</td>   <!-- PRO -->
+      <td data-mark="dot">●</td> <!-- DLX -->
+      <td data-mark="dot">●</td>   <!-- HYPER -->
+    </tr>
+
+    <tr>
+      <td class="cloudsign">クラウドサイン 連携</td>
+      <td data-mark="cross">×</td> <!-- STD -->
+      <td data-mark="cross">×</td> <!-- PRO -->
+      <td data-mark="dot">●</td>   <!-- DLX -->
+      <td data-mark="dot">●</td>   <!-- HYPER -->
+    </tr>
+
+    <tr>
+      <td class="esl">電子札 ESL 連携</td>
+      <td data-mark="cross">×</td> <!-- STD -->
+      <td data-mark="cross">×</td> <!-- PRO -->
+      <td data-mark="cross">×</td>   <!-- DLX -->
+      <td data-mark="dot">●</td>   <!-- HYPER -->
+    </tr>
+
+  </tbody>
+</table>
+<!-- /wp:html -->
+
+<!-- wp:spacer {"height":"var:preset|spacing|af-spacing-m"} -->
+<div style="height:var(--wp--preset--spacing--af-spacing-m)" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:html {"UAGResponsiveConditions":true} -->
+<!-- =========================
+     厨房君 詳細機能一覧表（カテゴリ＋機能別名称）
+     ========================= -->
+<table class="chubo-feature-table">
+  <thead>
+    <tr>
+      <th style="background:#fff;">カテゴリ</th>
+      <th style="background:#fff;">詳細機能</th>
+      <th><span class="std">厨房君 STD</span></th>
+      <th style="background:#fff;"><span class="pro">厨房君 PRO</span></th>
+      <th><span class="dlx">厨房君 DLX</span></th>
+      <th style="background:#fff;"><span class="hyper">厨房君 HYPER</span></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <!-- 顧客管理 -->
+    <tr>
+      <td class="basic" rowspan="5">顧客管理</td>
+      <td class="basic">顧客情報管理</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="basic">顧客QRコード発行<br class="sp-only">（アプリ連動）</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="basic">顧客店舗管理</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="basic">業態管理</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="basic">顧客担当者管理</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+
+    <!-- 仕入管理 -->
+    <tr>
+      <td class="stock" rowspan="5">仕入管理</td>
+      <td class="stock">買取見積作成</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="stock">買取ボード進捗管理</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="stock">買取承認</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="stock">アプリ連動</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="stock">入荷商品ESL連動<br>API連携</td>
+      <td class="gray" data-mark="cross">×</td>
+      <td data-mark="cross">×</td>
+      <td class="gray" data-mark="cross">×</td>
+      <td data-mark="dot">●</td>
+    </tr>
+
+    <!-- 再生管理 -->
+    <tr>
+      <td class="esl" rowspan="3">再生管理</td>
+      <td class="esl">工程ESL連動<br>API連携</td>
+      <td class="gray" data-mark="cross">×</td>
+      <td data-mark="cross">×</td>
+      <td class="gray" data-mark="cross">×</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="esl">再生工程ボード管理</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="esl">仕上げポイント</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    
+    
+        <!-- 在庫管理 -->
+    <tr>
+      <td class="inventory" rowspan="10">在庫管理</td>
+      <td class="inventory">在庫ESL連動<br>API連携</td>
+      <td class="gray" data-mark="cross">×</td>
+      <td data-mark="cross">×</td>
+      <td class="gray" data-mark="cross">×</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="inventory">商品型式マスタ</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="inventory">商品共通画像管理</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="inventory">棚卸し機能</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="inventory">オークション出品管理</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="inventory">商品トレース</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="inventory">厨房備品型式マスタ</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="inventory">レジ転送用CSV</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="inventory">在庫外処理</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="inventory">価格表示カード作成</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    
+        <!-- 販売管理 -->
+    <tr>
+      <td class="sales" rowspan="17">販売管理</td>
+      <td class="sales">見積書作成</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="sales">見積承認機能</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="sales">見積別粗利計算</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="sales">納品書作成</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="sales">請求書作成<br class="sp-only">（インボイス対応）</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="sales">発注書作成</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="sales">保証書作成</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="sales">売買契約書作成</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="sales">注文書/注文請書作成</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="sales">機器リスト表作成</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="sales">図面関連管理</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="sales">承認図/取扱説明書<br class="sp-only">一括ダウンロード機能</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="sales">FAX送信</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="sales">ハガキ送付先管理</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="sales">リース/ローン金額<br class="sp-only">自動計算機能</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="sales">搬入設置費計算</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="sales">プロジェクト管理<br class="sp-only">（アプリ連動）</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    
+
+        <!-- 売上管理 -->
+    <tr>
+      <td class="revenue" rowspan="12">売上管理</td>
+      <td class="revenue">日計表管理</td>
+      <td class="gray" data-mark="cross">×</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="revenue">売上データ検索</td>
+      <td class="gray" data-mark="cross">×</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="revenue">売掛データ管理</td>
+      <td class="gray" data-mark="cross">×</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="revenue">レジ精算管理</td>
+      <td class="gray" data-mark="cross">×</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="revenue">個人売上管理</td>
+      <td class="gray" data-mark="cross">×</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="revenue">店舗別売上管理</td>
+      <td class="gray" data-mark="cross">×</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="revenue">販売分析機能</td>
+      <td class="gray" data-mark="cross">×</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="revenue">売上ダッシュボード</td>
+      <td class="gray" data-mark="cross">×</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="revenue">勘定科目設定</td>
+      <td class="gray" data-mark="cross">×</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="revenue">勘定科目別集計</td>
+      <td class="gray" data-mark="cross">×</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="revenue">領収証管理</td>
+      <td class="gray" data-mark="cross">×</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="revenue">会計ソフト<br class="sp-only">CSVエクスポート機能</td>
+      <td class="gray" data-mark="cross">×</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    
+        <!-- クラウドサイン -->
+    <tr>
+      <td class="cloudsign" rowspan="4">クラウドサイン<br>API連携</td>
+      <td class="cloudsign">電子契約管理</td>
+      <td class="gray" data-mark="cross">×</td>
+      <td data-mark="cross">×</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="cloudsign">契約書作成・管理</td>
+      <td class="gray" data-mark="cross">×</td>
+      <td data-mark="cross">×</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="cloudsign">電子契約送信機能</td>
+      <td class="gray" data-mark="cross">×</td>
+      <td data-mark="cross">×</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="cloudsign">契約状況の可視化</td>
+      <td class="gray" data-mark="cross">×</td>
+      <td data-mark="cross">×</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+
+        <!-- その他 -->
+    <tr>
+      <td class="other" rowspan="6">その他</td>
+      <td class="other">スタッフ情報管理</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="other">取引先管理</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="other">スタッフ間<br class="sp-only">メッセージ機能</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="other">ブログ投稿管理</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="other">厨房君 for SP</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+    <tr>
+      <td class="other">プロ厨房ヒットアプリ</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+      <td class="gray" data-mark="dot">●</td>
+      <td data-mark="dot">●</td>
+    </tr>
+  </tbody>
+</table>
+<!-- /wp:html -->

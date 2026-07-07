@@ -23,15 +23,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   }
 }
 ?>
-<?php ck_log_render_head('改善ログ ログイン | 厨房君', '厨房君の改善ログを確認するためのFC加盟店向けログインページです。'); ?>
-<?php ck_log_render_header(); ?>
+<?php ck_log_render_head('改善ログ ログイン | 厨房君', '厨房君の改善ログを確認するための利用者向けログインページです。'); ?>
 
-<main class="ck-log-page">
+<main class="ck-log-page ck-log-login-page">
   <section class="ck-log-login">
     <div class="ck-log-login-card">
-      <span class="ck-log-label">IMPROVEMENT LOG</span>
-      <h1>改善ログ</h1>
-      <p>厨房君の新機能、修正、運用上の確認ポイントをFC加盟店向けに記録しています。</p>
+      <img class="ck-log-login-logo" src="image/logo/header_logo.png" alt="厨房君">
+      <h1>利用者専用画面</h1>
       <?php if ($error !== '') : ?>
         <p class="ck-log-error"><?php echo ck_h($error); ?></p>
       <?php endif; ?>
@@ -48,4 +46,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </main>
 
 <?php ck_log_render_footer(); ?>
-

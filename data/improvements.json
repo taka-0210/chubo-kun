@@ -1,11 +1,11 @@
 [
     {
-        "number": "LOG 004",
+        "number": "LOG 054",
         "slug": "log-20260704-85213f",
         "title": "動画テスト",
         "category": "改善",
-        "target": "全体",
-        "status": "published",
+        "target": "",
+        "status": "draft",
         "public_visible": false,
         "published_at": "2026-07-04",
         "updated_at": "2026-07-04",
@@ -14,11 +14,13 @@
         "public_body": "",
         "problem": "動画テスト",
         "changed": "動画テスト",
-        "reason": "動画テスト",
-        "fc_note": "動画テスト",
-        "next": "動画テスト",
-        "video_path": "video/improvements/log-20260704-85213f-20260704143645.mp4",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
         "video_caption": "",
+        "video_capture": "",
+        "images": [],
         "history": [
             {
                 "date": "2026-07-04",
@@ -27,11 +29,11 @@
         ]
     },
     {
-        "number": "LOG 003",
-        "slug": "equipment-list-reuse-20260704",
+        "number": "LOG 053",
+        "slug": "improvement-list-20260704",
         "title": "機器リスト表の作成が簡単になりました。",
-        "category": "改善",
-        "target": "機器リスト表",
+        "category": "新機能",
+        "target": "",
         "status": "published",
         "public_visible": true,
         "published_at": "2026-07-04",
@@ -41,9 +43,13 @@
         "public_body": "機器リスト表の作成時に、過去に作成したリストのデータを再利用できるようになりました。これまでは案件ごとに都度作成していた内容も、今後は「過去データ」ボタンから作成済みリストを表示し、必要なデータを選択してセットできます。簡単な機器リストであれば、図面担当スタッフでなくても作成しやすくなり、作業のスピードアップと効率化につながります。",
         "problem": "機器リスト表を作成するたびに、過去と似た内容でも都度入力・作成する必要があり、作業に時間がかかっていました。",
         "changed": "機器リスト表に「過去データ」ボタンを追加し、作成済みリストを表示して、選択したデータを再利用できるようにしました。",
-        "reason": "過去データを活用することで、入力作業を減らし、機器リスト表の作成スピードと作業効率を高めるためです。",
-        "fc_note": "機器リスト表を作成する際は、「過去データ」ボタンから作成済みリストを確認し、再利用したいデータを選択してセットできます。",
-        "next": "運用しながら、検索しやすさや選択時の分かりやすさも必要に応じて改善していきます。",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
         "history": [
             {
                 "date": "2026-07-04",
@@ -52,11 +58,11 @@
         ]
     },
     {
-        "number": "LOG 002",
+        "number": "LOG 052",
         "slug": "service-plan-compare-20260702",
         "title": "機能とプランの比較情報を見直しました",
-        "category": "修正",
-        "target": "機能とプラン",
+        "category": "不具合修正",
+        "target": "",
         "status": "published",
         "public_visible": true,
         "published_at": "2026-07-02",
@@ -66,9 +72,13 @@
         "public_body": "厨房君のSTD、PRO、DLX、HYPERそれぞれの違いが分かりやすくなるように、比較情報と詳細機能の見せ方を調整しました。導入検討時に必要な機能範囲を確認しやすくしています。",
         "problem": "プランごとの対応範囲が一目で分かりにくい部分がありました。",
         "changed": "シリーズカラーをそろえ、比較表と詳細機能の情報整理を行いました。",
-        "reason": "FC加盟店が自社に必要な機能範囲を判断しやすくするためです。",
-        "fc_note": "プラン検討時は、月額利用料とアカウント利用料を合わせて確認してください。",
-        "next": "実際の導入相談で多い質問をもとに、説明文を追加していきます。",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
         "history": [
             {
                 "date": "2026-07-02",
@@ -77,11 +87,11 @@
         ]
     },
     {
-        "number": "LOG 001",
+        "number": "LOG 051",
         "slug": "inventory-esl-link-20260702",
         "title": "在庫情報と電子棚札の連携を確認しやすくしました",
         "category": "改善",
-        "target": "ESL連携",
+        "target": "",
         "status": "published",
         "public_visible": true,
         "published_at": "2026-07-02",
@@ -91,13 +101,1467 @@
         "public_body": "厨房君と電子棚札の連携により、在庫情報と現場表示のズレを減らすための確認ポイントを整理しました。現場での作業後に、どこを確認すればよいか分かりやすくしています。",
         "problem": "在庫情報が更新されても、現場側の表示確認に時間がかかる場面がありました。",
         "changed": "厨房君上の操作とESL表示のつながりが分かるように、確認手順と表示内容を整理しました。",
-        "reason": "FC加盟店側で、作業後にどこを確認すればよいか判断しやすくするためです。",
-        "fc_note": "入荷後や売約後は、厨房君の在庫情報とESL表示が一致しているか確認してください。",
-        "next": "運用時に迷いやすい画面や文言があれば、追加で改善します。",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
         "history": [
             {
                 "date": "2026-07-02",
                 "note": "初回公開"
+            }
+        ]
+    },
+    {
+        "number": "LOG 049",
+        "slug": "log049",
+        "title": "LOG 049 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 048",
+        "slug": "log048",
+        "title": "LOG 048 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 047",
+        "slug": "log047",
+        "title": "LOG 047 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 046",
+        "slug": "log046",
+        "title": "LOG 046 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 045",
+        "slug": "log045",
+        "title": "LOG 045 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 044",
+        "slug": "log044",
+        "title": "LOG 044 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 043",
+        "slug": "log043",
+        "title": "LOG 043 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 042",
+        "slug": "log042",
+        "title": "LOG 042 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 041",
+        "slug": "log041",
+        "title": "LOG 041 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 040",
+        "slug": "log040",
+        "title": "LOG 040 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 039",
+        "slug": "log039",
+        "title": "LOG 039 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 038",
+        "slug": "log038",
+        "title": "LOG 038 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 037",
+        "slug": "log037",
+        "title": "LOG 037 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 036",
+        "slug": "log036",
+        "title": "LOG 036 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 035",
+        "slug": "log035",
+        "title": "LOG 035 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 034",
+        "slug": "log034",
+        "title": "LOG 034 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 033",
+        "slug": "log033",
+        "title": "LOG 033 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 032",
+        "slug": "log032",
+        "title": "LOG 032 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 031",
+        "slug": "log031",
+        "title": "LOG 031 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 030",
+        "slug": "log030",
+        "title": "LOG 030 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 029",
+        "slug": "log029",
+        "title": "LOG 029 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 028",
+        "slug": "log028",
+        "title": "LOG 028 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 027",
+        "slug": "log027",
+        "title": "LOG 027 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 026",
+        "slug": "log026",
+        "title": "LOG 026 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 025",
+        "slug": "log025",
+        "title": "LOG 025 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 024",
+        "slug": "log024",
+        "title": "LOG 024 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 023",
+        "slug": "log023",
+        "title": "LOG 023 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 022",
+        "slug": "log022",
+        "title": "LOG 022 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 021",
+        "slug": "log021",
+        "title": "LOG 021 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 020",
+        "slug": "log020",
+        "title": "LOG 020 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 019",
+        "slug": "log019",
+        "title": "LOG 019 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 018",
+        "slug": "log018",
+        "title": "LOG 018 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 017",
+        "slug": "log017",
+        "title": "LOG 017 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 016",
+        "slug": "log016",
+        "title": "LOG 016 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 015",
+        "slug": "log015",
+        "title": "LOG 015 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 014",
+        "slug": "log014",
+        "title": "LOG 014 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 013",
+        "slug": "log013",
+        "title": "LOG 013 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 012",
+        "slug": "log012",
+        "title": "LOG 012 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 011",
+        "slug": "log011",
+        "title": "LOG 011 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 010",
+        "slug": "log010",
+        "title": "LOG 010 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 009",
+        "slug": "log009",
+        "title": "LOG 009 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 008",
+        "slug": "log008",
+        "title": "LOG 008 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 007",
+        "slug": "log007",
+        "title": "LOG 007 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 006",
+        "slug": "log006",
+        "title": "LOG 006 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 005",
+        "slug": "log005",
+        "title": "LOG 005 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 004",
+        "slug": "log004",
+        "title": "LOG 004 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 003",
+        "slug": "log003",
+        "title": "LOG 003 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 002",
+        "slug": "log002",
+        "title": "LOG 002 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 001",
+        "slug": "log001",
+        "title": "LOG 001 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "draft",
+        "public_visible": false,
+        "published_at": "2026-07-01",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
+            }
+        ]
+    },
+    {
+        "number": "LOG 050",
+        "slug": "log050",
+        "title": "LOG 050 下書き",
+        "category": "改善",
+        "target": "",
+        "status": "published",
+        "public_visible": false,
+        "published_at": "2026-06-29",
+        "updated_at": "2026-07-01",
+        "summary": "下書き",
+        "public_summary": "",
+        "public_body": "",
+        "problem": "",
+        "changed": "",
+        "reason": "",
+        "fc_note": "",
+        "next": "",
+        "video_path": "",
+        "video_caption": "",
+        "video_capture": "",
+        "images": [],
+        "history": [
+            {
+                "date": "2026-07-01",
+                "note": "下書き作成"
             }
         ]
     }

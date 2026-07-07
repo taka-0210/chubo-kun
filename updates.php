@@ -8,13 +8,33 @@ $archives = ck_log_archives($items);
 $selectedItems = ck_log_selected_items($items, $year, $month);
 ?>
 <?php ck_log_render_head('アップデート情報 | 厨房君', '厨房君の新機能、改善、修正情報をお知らせします。'); ?>
-<?php ck_log_render_header(); ?>
+
+<header class="ck-site-header">
+  <div class="ck-header-bar">
+    <a class="ck-header-logo" href="index.php" aria-label="厨房君 トップページ">
+      <img src="image/logo/header_logo.png" alt="厨房君">
+    </a>
+    <nav class="ck-header-nav" id="ck-header-nav" aria-label="主要ナビゲーション">
+      <a href="first.php">はじめての方へ</a>
+      <a href="esl-solution.php">電子棚札のメリット</a>
+      <a href="business-support.php">経営サポート</a>
+      <a href="service.php">機能とプラン</a>
+      <a href="future.php">業界の未来</a>
+      <a href="company.php">COMPANY</a>
+    </nav>
+    <a class="ck-header-cta" href="https://rise-up.net/franchise/" target="_blank" rel="noopener noreferrer">FC募集</a>
+    <button class="ck-header-menu" type="button" aria-label="メニュー" aria-controls="ck-header-nav" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
 
 <main class="ck-log-page ck-public-updates">
   <section class="ck-public-update-hero">
     <div class="ck-home-container">
       <span>UPDATE</span>
-      <h1>厨房君の改善を、<br>わかりやすくお知らせします。</h1>
+      <h1>厨房君の新機能や改修などのお知らせ</h1>
       <p>新機能、改善、修正情報のうち、一般公開できる内容をまとめています。</p>
     </div>
   </section>
@@ -34,7 +54,6 @@ $selectedItems = ck_log_selected_items($items, $year, $month);
             <div class="ck-log-card-meta">
               <time datetime="<?php echo ck_h($item['published_at'] ?? ''); ?>"><?php echo ck_h($item['published_at'] ?? ''); ?></time>
               <em><?php echo ck_h($item['category'] ?? ''); ?></em>
-              <em><?php echo ck_h($item['target'] ?? ''); ?></em>
             </div>
             <h2><?php echo ck_h($item['title'] ?? ''); ?></h2>
             <p><?php echo ck_h(($item['public_summary'] ?? '') !== '' ? $item['public_summary'] : ($item['summary'] ?? '')); ?></p>
@@ -64,4 +83,3 @@ $selectedItems = ck_log_selected_items($items, $year, $month);
 </main>
 
 <?php ck_log_render_footer(); ?>
-

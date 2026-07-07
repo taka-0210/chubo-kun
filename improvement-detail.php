@@ -22,44 +22,28 @@ if (!$item) {
       </div>
     </section>
   <?php else : ?>
-    <section class="ck-log-detail-hero">
-      <div class="ck-home-container">
-        <div class="ck-log-card-meta">
-          <span><?php echo ck_h($item['number'] ?? ''); ?></span>
-          <time datetime="<?php echo ck_h($item['published_at'] ?? ''); ?>"><?php echo ck_h($item['published_at'] ?? ''); ?></time>
-          <em><?php echo ck_h($item['category'] ?? ''); ?></em>
-          <em><?php echo ck_h($item['target'] ?? ''); ?></em>
-        </div>
-        <h1><?php echo ck_h($item['title'] ?? ''); ?></h1>
-        <p><?php echo ck_h($item['summary'] ?? ''); ?></p>
-      </div>
-    </section>
-
     <section class="ck-log-section">
       <div class="ck-home-container ck-log-detail">
+        <header class="ck-log-detail-head">
+          <div class="ck-log-card-meta">
+            <span><?php echo ck_h($item['number'] ?? ''); ?></span>
+            <time datetime="<?php echo ck_h($item['published_at'] ?? ''); ?>"><?php echo ck_h($item['published_at'] ?? ''); ?></time>
+            <em><?php echo ck_h($item['category'] ?? ''); ?></em>
+          </div>
+          <h1><?php echo ck_h($item['title'] ?? ''); ?></h1>
+          <p><?php echo ck_h($item['summary'] ?? ''); ?></p>
+        </header>
+
         <?php
           $videoSrc = ck_log_media_src($item['video_path'] ?? '');
           $videoType = ck_log_video_type($videoSrc);
+          $videoPoster = ck_log_media_src($item['video_capture'] ?? '');
+          $images = ck_log_images($item['images'] ?? []);
         ?>
-        <?php if ($videoSrc !== '') : ?>
-          <article class="ck-log-video">
-            <span>動画</span>
-            <video controls preload="metadata" playsinline>
-              <source src="<?php echo ck_h($videoSrc); ?>"<?php echo $videoType !== '' ? ' type="' . ck_h($videoType) . '"' : ''; ?>>
-            </video>
-            <?php if (trim((string) ($item['video_caption'] ?? '')) !== '') : ?>
-              <p><?php echo ck_h($item['video_caption']); ?></p>
-            <?php endif; ?>
-          </article>
-        <?php endif; ?>
-
         <?php
           $blocks = [
             '課題' => $item['problem'] ?? '',
-            '変更内容' => $item['changed'] ?? '',
-            '理由' => $item['reason'] ?? '',
-            'FC加盟店への確認ポイント' => $item['fc_note'] ?? '',
-            '次に進めること' => $item['next'] ?? '',
+            '内容' => $item['changed'] ?? '',
           ];
         ?>
         <?php foreach ($blocks as $label => $body) : ?>
@@ -71,14 +55,25 @@ if (!$item) {
           <?php endif; ?>
         <?php endforeach; ?>
 
-        <?php if (!empty($item['history']) && is_array($item['history'])) : ?>
-          <article>
-            <span>履歴</span>
-            <ul>
-              <?php foreach ($item['history'] as $history) : ?>
-                <li><time><?php echo ck_h($history['date'] ?? ''); ?></time><?php echo ck_h($history['note'] ?? ''); ?></li>
+        <?php if ($videoSrc !== '') : ?>
+          <article class="ck-log-video">
+            <span>動画</span>
+            <video controls preload="metadata" playsinline<?php echo $videoPoster !== '' ? ' poster="' . ck_h($videoPoster) . '"' : ''; ?>>
+              <source src="<?php echo ck_h($videoSrc); ?>"<?php echo $videoType !== '' ? ' type="' . ck_h($videoType) . '"' : ''; ?>>
+            </video>
+          </article>
+        <?php endif; ?>
+
+        <?php if ($images) : ?>
+          <article class="ck-log-images">
+            <span>画像</span>
+            <div>
+              <?php foreach ($images as $imagePath) : ?>
+                <figure>
+                  <img src="<?php echo ck_h($imagePath); ?>" alt="">
+                </figure>
               <?php endforeach; ?>
-            </ul>
+            </div>
           </article>
         <?php endif; ?>
 

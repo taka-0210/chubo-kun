@@ -3680,6 +3680,12 @@
   letter-spacing: 0;
 }
 
+.ck-log-hero h1 {
+  max-width: 760px;
+  font-size: clamp(34px, 4.6vw, 64px);
+  line-height: 1.22;
+}
+
 .ck-log-hero p,
 .ck-log-detail-hero p,
 .ck-public-update-hero p {
@@ -3706,11 +3712,12 @@
 }
 
 .ck-public-update-hero h1 {
-  max-width: 760px;
+  max-width: none;
   margin-top: 14px;
   color: #111827;
-  font-size: clamp(30px, 4vw, 46px);
+  font-size: 40px;
   line-height: 1.22;
+  white-space: nowrap;
 }
 
 .ck-public-update-hero p {
@@ -3725,7 +3732,6 @@
 .ck-log-hero a,
 .ck-log-back,
 .ck-log-admin-head a,
-.ck-log-admin-list a,
 .ck-log-card a {
   display: inline-flex;
   align-items: center;
@@ -3745,7 +3751,7 @@
 }
 
 .ck-log-section {
-  padding: 86px 0;
+  padding: 48px 0 86px;
 }
 
 .ck-log-layout {
@@ -3755,17 +3761,207 @@
   align-items: start;
 }
 
+.ck-log-member-list {
+  display: grid;
+  gap: 22px;
+}
+
 .ck-log-list,
 .ck-log-admin-list {
   display: grid;
   gap: 18px;
 }
 
+.ck-log-simple-list {
+  gap: 0;
+  overflow: hidden;
+  border: 1px solid rgba(17, 24, 39, .10);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 18px 44px rgba(15, 23, 42, .06);
+}
+
+.ck-log-row {
+  display: grid;
+  grid-template-columns: 300px minmax(0, 1fr);
+  gap: 18px;
+  align-items: center;
+  min-height: 74px;
+  padding: 14px 18px;
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(17, 24, 39, .08);
+  background: #fff;
+  transition: background .16s ease;
+}
+
+.ck-log-row:last-child {
+  border-bottom: 0;
+}
+
+.ck-log-row:hover {
+  background: #f8fafc;
+}
+
+.ck-log-admin-row {
+  grid-template-columns: 300px minmax(0, 1fr);
+}
+
+.ck-log-member-row {
+  grid-template-columns: 300px minmax(0, 1fr);
+}
+
+.ck-log-admin-row.is-draft {
+  background: #f6f7f9;
+}
+
+.ck-log-admin-row.is-draft:hover {
+  background: #eef2f6;
+}
+
+.ck-log-row-meta {
+  display: grid;
+  gap: 8px;
+  align-items: start;
+}
+
+.ck-log-row-meta-top,
+.ck-log-row-meta-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  align-items: center;
+}
+
+.ck-log-row-meta span,
+.ck-log-row-meta em,
+.ck-log-row-meta time {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 0 9px;
+  border-radius: 999px;
+  background: #eef2f7;
+  color: #4b5563;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.ck-log-row-meta span {
+  color: #fff;
+  background: #111827;
+}
+
+.ck-log-row-meta em {
+  color: #8b6d1f;
+  background: rgba(214, 182, 95, .18);
+}
+
+.ck-log-row-meta em.is-published-status {
+  color: #166534;
+  background: rgba(34, 197, 94, .14);
+}
+
+.ck-log-row-meta em.is-draft-status {
+  color: #64748b;
+  background: rgba(100, 116, 139, .14);
+}
+
+.ck-log-row-meta em.is-member-visibility {
+  color: #1d4ed8;
+  background: rgba(59, 130, 246, .14);
+}
+
+.ck-log-row-meta em.is-public-visibility {
+  color: #9a3412;
+  background: rgba(249, 115, 22, .16);
+}
+
+.ck-log-row-meta .ck-log-media-icons {
+  gap: 5px;
+  padding: 0;
+  background: transparent;
+}
+
+.ck-log-media-icons i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  color: #111827;
+  background: #f6cf58;
+}
+
+.ck-log-media-icons svg {
+  display: block;
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+}
+
+.ck-log-row-main {
+  min-width: 0;
+}
+
+.ck-log-row-main h2 {
+  margin: 0;
+  overflow: hidden;
+  color: #111827;
+  font-size: 17px;
+  font-weight: 900;
+  line-height: 1.35;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ck-log-row-main p {
+  margin: 6px 0 0;
+  overflow: hidden;
+  color: #5f6673;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ck-log-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.ck-log-pagination a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 38px;
+  height: 38px;
+  border: 1px solid rgba(17, 24, 39, .10);
+  border-radius: 8px;
+  color: #4b5563;
+  background: #fff;
+  font-size: 13px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.ck-log-pagination a.is-current {
+  color: #111827;
+  border-color: rgba(246, 207, 88, .65);
+  background: #f6cf58;
+}
+
 .ck-log-card,
 .ck-public-update-card,
 .ck-log-empty,
-.ck-log-detail article,
-.ck-log-admin-list article,
 .ck-log-login-card,
 .ck-log-form,
 .ck-log-archive {
@@ -3779,8 +3975,7 @@
 
 .ck-log-card,
 .ck-public-update-card,
-.ck-log-empty,
-.ck-log-admin-list article {
+.ck-log-empty {
   padding: 30px;
 }
 
@@ -3817,8 +4012,7 @@
 }
 
 .ck-log-card h2,
-.ck-public-update-card h2,
-.ck-log-admin-list h2 {
+.ck-public-update-card h2 {
   margin: 18px 0 0;
   color: #111827;
   font-size: 28px;
@@ -3828,7 +4022,6 @@
 
 .ck-log-card p,
 .ck-public-update-card p,
-.ck-log-admin-list p,
 .ck-log-empty p {
   margin: 14px 0 0;
   color: #5f6673;
@@ -3837,8 +4030,7 @@
   line-height: 1.9;
 }
 
-.ck-log-card a,
-.ck-log-admin-list a {
+.ck-log-card a {
   margin-top: 22px;
   color: #fff;
   background: #111827;
@@ -3962,10 +4154,12 @@
 }
 
 .ck-public-updates .ck-log-archive a {
+  align-items: center;
   min-height: 36px;
   margin-top: 8px;
   padding: 8px 10px;
   font-size: 13px;
+  line-height: 1;
 }
 
 .ck-public-update-card {
@@ -4046,16 +4240,179 @@
   background: rgba(214, 182, 95, .24);
 }
 
+.ck-log-archive a span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 26px;
+  height: 22px;
+  padding: 0 8px;
+  border-radius: 999px;
+  color: #111827;
+  background: rgba(17, 24, 39, .12);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.ck-log-archive a.is-current span {
+  background: #f6cf58;
+}
+
+.ck-log-archive-bottom {
+  position: static;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  align-items: center;
+  padding: 18px;
+}
+
+.ck-log-archive-bottom h2 {
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.ck-log-archive-bottom div {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.ck-log-archive-bottom strong,
+.ck-log-archive-bottom a {
+  display: inline-flex;
+  align-items: center;
+}
+
+.ck-log-archive-bottom strong {
+  min-height: 34px;
+}
+
+.ck-log-archive-bottom a {
+  min-width: 0;
+  min-height: 34px;
+  margin: 0;
+}
+
+.ck-log-archive-filter {
+  position: static;
+  display: grid;
+  gap: 12px;
+  padding: 18px;
+}
+
+.ck-log-archive-filter h2 {
+  margin: 0;
+  color: #111827;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
+.ck-log-archive-filter div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.ck-log-archive-filter a,
+.ck-log-archive-filter strong {
+  display: inline-flex;
+  align-items: center;
+}
+
+.ck-log-archive-filter a {
+  justify-content: space-between;
+  gap: 8px;
+  min-width: 128px;
+  min-height: 42px;
+  margin: 0;
+  padding: 0 10px;
+  border: 1px solid rgba(17, 24, 39, .10);
+  border-radius: 8px;
+  color: #111827;
+  background: #fff;
+  text-decoration: none;
+}
+
+.ck-log-archive-filter a.ck-log-archive-all {
+  min-width: 94px;
+}
+
+.ck-log-archive-filter a.is-current {
+  border-color: rgba(246, 207, 88, .85);
+  background: rgba(246, 207, 88, .26);
+}
+
+.ck-log-archive-filter strong {
+  min-height: auto;
+  color: inherit;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.ck-log-archive-filter a span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  height: 24px;
+  padding: 0 7px;
+  border-radius: 999px;
+  color: #374151;
+  background: #e5e7eb;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.ck-log-archive-filter a.is-current span {
+  color: #111827;
+  background: #f6cf58;
+}
+
 .ck-log-detail {
   max-width: 960px;
 }
 
+.ck-log-detail-head {
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(17, 24, 39, .10);
+}
+
+.ck-log-detail-head h1 {
+  margin: 18px 0 0;
+  color: #111827;
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: 900;
+  line-height: 1.35;
+}
+
+.ck-log-detail-head p {
+  max-width: 780px;
+  margin: 12px 0 0;
+  color: #5f6673;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.8;
+}
+
 .ck-log-detail article {
-  padding: 30px;
+  padding: 22px 0;
+  border: 0;
+  border-bottom: 1px solid rgba(17, 24, 39, .10);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
 }
 
 .ck-log-detail article + article {
-  margin-top: 18px;
+  margin-top: 0;
 }
 
 .ck-log-video video {
@@ -4068,21 +4425,41 @@
   aspect-ratio: 16 / 9;
 }
 
+.ck-log-images > div {
+  display: grid;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.ck-log-images figure {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid rgba(17, 24, 39, .10);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.ck-log-images img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .ck-log-detail article span {
   display: block;
   color: #b6922c;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 900;
   letter-spacing: .08em;
 }
 
 .ck-log-detail p,
 .ck-log-detail li {
-  margin: 12px 0 0;
+  margin: 10px 0 0;
   color: #4b5563;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 700;
-  line-height: 1.95;
+  line-height: 1.85;
 }
 
 .ck-log-detail ul {
@@ -4102,14 +4479,18 @@
 }
 
 .ck-log-back {
-  margin-top: 28px;
+  margin-top: 24px;
 }
 
 .ck-log-login {
   display: grid;
-  min-height: auto;
+  min-height: 100vh;
   padding: 38px 20px 80px;
   place-items: start center;
+  background: #f6f7f9;
+}
+
+.ck-log-login-page {
   background: #f6f7f9;
 }
 
@@ -4124,13 +4505,24 @@
 .ck-log-login-card {
   width: min(100%, 520px);
   padding: 42px;
+  border-color: transparent;
+  background: #f6f7f9;
+  box-shadow: none;
+}
+
+.ck-log-login-logo {
+  display: block;
+  width: 234px;
+  height: auto;
+  margin: 0 auto 22px;
 }
 
 .ck-log-login-card h1 {
-  margin: 12px 0 0;
+  margin: 0;
   color: #111827;
-  font-size: 42px;
+  font-size: 34px;
   font-weight: 900;
+  text-align: center;
 }
 
 .ck-log-login-card p {
@@ -4161,6 +4553,19 @@
   font-weight: 900;
 }
 
+.ck-log-form label .ck-log-label-with-note {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  align-items: baseline;
+}
+
+.ck-log-form label .ck-log-label-with-note small {
+  color: #9ca3af;
+  font-size: 11px;
+  font-weight: 800;
+}
+
 .ck-log-login-card input,
 .ck-log-form input,
 .ck-log-form select,
@@ -4180,6 +4585,233 @@
 .ck-log-form textarea {
   min-height: 130px;
   resize: vertical;
+}
+
+.ck-log-form input[readonly] {
+  color: #5f6673;
+  background: #f3f5f7;
+  cursor: default;
+}
+
+.ck-log-form .ck-log-textarea-2 {
+  min-height: 82px;
+}
+
+.ck-log-form .ck-log-textarea-3 {
+  min-height: 108px;
+}
+
+.ck-log-form .ck-log-textarea-6 {
+  min-height: 188px;
+}
+
+.ck-log-inline-check {
+  display: inline-flex !important;
+  grid-template-columns: none !important;
+  gap: 8px !important;
+  align-items: center;
+  justify-self: start;
+  color: #4b5563;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.ck-log-form .ck-log-inline-check input[type="checkbox"] {
+  width: auto;
+  min-height: 0;
+  padding: 0;
+}
+
+.ck-log-video-capture {
+  display: grid;
+  max-width: 320px;
+}
+
+.ck-log-video-capture:empty {
+  display: none;
+}
+
+.ck-log-video-capture figure {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid rgba(17, 24, 39, .08);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.ck-log-video-capture img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #f6f7f9;
+}
+
+.ck-log-video-capture figcaption {
+  color: #4b5563;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+.ck-log-image-admin {
+  display: grid;
+  gap: 16px;
+  padding: 18px;
+  border: 1px solid rgba(17, 24, 39, .10);
+  border-radius: 8px;
+  background: #f8fafc;
+}
+
+.ck-log-image-admin > div:first-child > span {
+  color: #4b5563;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.ck-log-image-admin > div:first-child > p {
+  margin: 6px 0 0;
+  color: #5f6673;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.ck-log-image-admin-notice {
+  margin: 0;
+  padding: 12px 14px;
+  border-radius: 8px;
+  color: #8b6d1f;
+  background: rgba(214, 182, 95, .16);
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1.6;
+}
+
+.ck-log-image-admin-list {
+  display: grid;
+  gap: 10px;
+}
+
+.ck-log-image-admin-item {
+  display: grid;
+  grid-template-columns: 140px minmax(0, 1fr);
+  gap: 14px;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid rgba(17, 24, 39, .08);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.ck-log-image-admin-item img {
+  display: block;
+  width: 140px;
+  height: 90px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #f6f7f9;
+}
+
+.ck-log-image-admin-item > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.ck-log-form .ck-log-image-admin-item button {
+  min-height: 34px;
+  padding: 0 12px;
+  border: 1px solid rgba(17, 24, 39, .14);
+  background: #fff;
+  font-size: 13px;
+}
+
+.ck-log-form .ck-log-image-admin-item button:disabled {
+  color: #9ca3af;
+  cursor: default;
+}
+
+.ck-log-image-admin-item label {
+  display: inline-flex;
+  grid-template-columns: none;
+  gap: 6px;
+  align-items: center;
+  color: #4b5563;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.ck-log-image-admin-item input[type="checkbox"] {
+  width: auto;
+  min-height: 0;
+  padding: 0;
+}
+
+.ck-log-image-upload-preview {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
+  gap: 10px;
+}
+
+.ck-log-image-upload-preview:empty {
+  display: none;
+}
+
+.ck-log-image-upload-preview figure {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid rgba(17, 24, 39, .08);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.ck-log-image-upload-preview img {
+  display: block;
+  width: 100%;
+  height: 96px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #f6f7f9;
+}
+
+.ck-log-image-upload-preview figcaption {
+  overflow: hidden;
+  color: #4b5563;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.4;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ck-log-public-admin {
+  display: grid;
+  gap: 16px;
+  padding: 18px;
+  border: 1px solid rgba(214, 182, 95, .36);
+  border-radius: 8px;
+  background: rgba(246, 207, 88, .14);
+}
+
+.ck-log-public-admin > div:first-child > span {
+  color: #6f5817;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.ck-log-public-admin > div:first-child > p {
+  margin: 6px 0 0;
+  color: #5f6673;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.6;
 }
 
 .ck-log-login-card button,
@@ -4216,23 +4848,26 @@
 }
 
 .ck-log-admin-head {
-  padding: 70px 0 34px;
-  color: #fff;
-  background: #111827;
+  padding: 34px 0 0;
+  color: #111827;
+  background: #f6f7f9;
 }
 
 .ck-log-admin-head .ck-home-container {
   display: flex;
-  gap: 20px;
-  align-items: end;
+  gap: 18px;
+  align-items: center;
   justify-content: space-between;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(17, 24, 39, .10);
 }
 
 .ck-log-admin-head h1 {
-  margin: 10px 0 0;
-  color: #fff;
-  font-size: 44px;
+  margin: 0;
+  color: #111827;
+  font-size: 30px;
   font-weight: 900;
+  line-height: 1.35;
 }
 
 .ck-log-admin-head div div {
@@ -4243,8 +4878,10 @@
 }
 
 .ck-log-admin-head a {
-  min-height: 42px;
+  min-height: 36px;
+  padding: 0 14px;
   color: #111827;
+  font-size: 13px;
 }
 
 .ck-log-form {
@@ -4688,6 +5325,10 @@
     font-size: clamp(38px, 12vw, 58px);
   }
 
+  .ck-log-hero h1 {
+    font-size: clamp(30px, 9vw, 44px);
+  }
+
   .ck-log-hero p,
   .ck-log-detail-hero p {
     font-size: 17px;
@@ -4704,8 +5345,12 @@
     order: -1;
   }
 
+  .ck-log-member-list .ck-log-archive {
+    order: 0;
+  }
+
   .ck-log-section {
-    padding: 58px 0;
+    padding: 36px 0 58px;
   }
 
   .ck-public-updates .ck-log-section {
@@ -4750,17 +5395,42 @@
 
   .ck-log-card,
   .ck-log-empty,
-  .ck-log-detail article,
-  .ck-log-admin-list article,
   .ck-log-login-card,
   .ck-log-form,
   .ck-log-archive {
     padding: 24px;
   }
 
-  .ck-log-card h2,
-  .ck-log-admin-list h2 {
+  .ck-log-card h2 {
     font-size: 23px;
+  }
+
+  .ck-log-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    min-height: 0;
+    padding: 16px;
+  }
+
+  .ck-log-row-main h2 {
+    white-space: normal;
+  }
+
+  .ck-log-row-main p {
+    display: -webkit-box;
+    white-space: normal;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  .ck-log-image-admin-item {
+    grid-template-columns: 1fr;
+  }
+
+  .ck-log-image-admin-item img {
+    width: 100%;
+    height: auto;
+    max-height: 220px;
   }
 
   .ck-log-admin-head .ck-home-container {
